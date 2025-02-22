@@ -4,4 +4,5 @@ from moneyApp import views
 
 urlpatterns = [
     path('',views.index),
+    path('account/',views.account),
 ]
